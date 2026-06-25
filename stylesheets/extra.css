@@ -1,2 +1,14 @@
 .md-header__button.md-logo { display: none !important; }
 .md-sidebar__logo { display: none !important; }
+
+/* Make header background match body background and remove shadow */
+.md-header {
+  background-color: var(--md-default-bg-color) !important;
+  color: var(--md-default-fg-color) !important;
+  box-shadow: none !important;
+}
+
+/* Ensure links/buttons in header also adapt to the body text color */
+.md-header__button, .md-header__title, .md-tabs__link {
+  color: var(--md-default-fg-color) !important;
+}
