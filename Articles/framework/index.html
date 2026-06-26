@@ -1,0 +1,888 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="劇団血パンダのドキュメント">
+      
+      
+      
+        <link rel="canonical" href="https://stance.blood-panda.net/Articles/framework/">
+      
+      
+        <link rel="prev" href="../">
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>機能的態度のフレームワーク - 劇団血パンダ</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#1" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="劇団血パンダ" class="md-header__button md-logo" aria-label="劇団血パンダ" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            劇団血パンダ
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              機能的態度のフレームワーク
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-hidden="true"  type="radio" name="__palette" id="__palette_0">
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Workshop Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../" class="md-tabs__link">
+          
+  
+  
+  Articles
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="劇団血パンダ" class="md-nav__button md-logo" aria-label="劇団血パンダ" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    劇団血パンダ
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Workshop Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Articles
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Articles
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Articles
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    機能的態度のフレームワーク
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    機能的態度のフレームワーク
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. 身体的土台：最小限の素振り
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. 理論的背景
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. 理論的背景">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.1 交流分析の自我状態
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.2 コミュニケーションの公理（ルール）
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. 戦術カード・マスターリスト
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. 戦術カード・マスターリスト">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#i-constructive" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        I. 協調的な態度 (Constructive)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ii-p-manipulative-parent" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        II. 操作的な態度：P主体 (Manipulative Parent)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iii-c-manipulative-child" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        III. 操作的な態度：C主体 (Manipulative Child)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iv-strategic-mixed" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        IV. 戦略的利用と混合 (Strategic &amp; Mixed)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. 身体的土台：最小限の素振り
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. 理論的背景
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. 理論的背景">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.1 交流分析の自我状態
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.2 コミュニケーションの公理（ルール）
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. 戦術カード・マスターリスト
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. 戦術カード・マスターリスト">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#i-constructive" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        I. 協調的な態度 (Constructive)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ii-p-manipulative-parent" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        II. 操作的な態度：P主体 (Manipulative Parent)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iii-c-manipulative-child" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        III. 操作的な態度：C主体 (Manipulative Child)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iv-strategic-mixed" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        IV. 戦略的利用と混合 (Strategic &amp; Mixed)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+  <h1>機能的態度のフレームワーク</h1>
+
+<p>このドキュメントは、感情的な惰性を排し、「態度」を戦略的に選択するための指標を示しています。
+セリフの言い方を考えるのではなく、どう思考し、どんな態度を取っているかの裏付けがしっかりしていれば、あとは客観的に「そう見えるか」の確認だけになっていく。
+<strong>稽古で利用しながら、今後もブラッシュアップしていく予定。</strong></p>
+<h2 id="1">1. 身体的土台：最小限の素振り</h2>
+<p>稽古を開始する前に、以下のニュートラルな身体状態を意識しておきます。</p>
+<blockquote>
+<p>[!abstract] ニュートラルポジションの3原則</p>
+<ol>
+<li>
+<p><strong>頭部と首の解放</strong>: 視線を感情から解放し、冷静な観察を可能にする。</p>
+</li>
+<li>
+<p><strong>胴体の統合</strong>: 柔軟性を保ち距離調整を正確にする。</p>
+</li>
+<li>
+<p><strong>四肢の準備</strong>: 重力と繋がり、自身の判断に基づく滑らかな移動を支える。
+</p>
+</li>
+</ol>
+</blockquote>
+<h2 id="2">2. 理論的背景</h2>
+<h3 id="21">2.1 交流分析の自我状態</h3>
+<p>態度選択の主体となる心のエネルギー状態です。</p>
+<table>
+<thead>
+<tr>
+<th><strong>識別子</strong></th>
+<th><strong>自我状態</strong></th>
+<th><strong>機能的役割</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>A</strong></td>
+<td>大人 (Adult)</td>
+<td>事実、論理、合理的な戦略の実行</td>
+</tr>
+<tr>
+<td><strong>P</strong></td>
+<td>親 (Parent)</td>
+<td>支配、管理、規範（CP）、または保護、過干渉（NP）</td>
+</tr>
+<tr>
+<td><strong>C</strong></td>
+<td>子ども (Child)</td>
+<td>衝動、感情、依存（FC）、または順応、逃避（AC）</td>
+</tr>
+<tr>
+<td><strong>MIX</strong></td>
+<td>混合 (Mix)</td>
+<td>支配と脆さが混在した共依存的な操作</td>
+</tr>
+</tbody>
+</table>
+<h3 id="22">2.2 コミュニケーションの公理（ルール）</h3>
+<p>グライスの協調の公理を<strong>意図的に破る（逸脱する）</strong>ことで、対人関係の力学を操作します。</p>
+<ul>
+<li><strong>量（情報の出し方）</strong>: 必要十分か、過剰か、不足か。 </li>
+<li><strong>質（嘘か誠か）</strong>: 確信に基づいているか、虚偽・未検証か。</li>
+<li><strong>関連性（話題の一貫性）</strong>: 文脈に従っているか、意図的に逸らしているか。</li>
+<li><strong>様態（態度の明確さ）</strong>: 簡潔で明瞭か、曖昧で不明瞭か。</li>
+</ul>
+<h2 id="3">3. 戦術カード・マスターリスト</h2>
+<p>以下のリストに記された条件に近ければ、選択した態度に見えやすくなります。</p>
+<h3 id="i-constructive">I. 協調的な態度 (Constructive)</h3>
+<blockquote>
+<p>[!info] C-1: 対等な対話</p>
+<p>主体: A | ルール: 守る（全公理）</p>
+<p>実行コード: 距離・角度: 中立・45度 / 強さ: ニュートラル / 音: クリアな単音</p>
+<p>戦略的論理: 全てのルールを守ることで、会話の状況と関係性を対等に維持する。</p>
+<p>[!info] C-2: 見極めの間</p>
+<p>主体: A | ルール: 破る（量の公理）</p>
+<p>実行コード: 強さ: 安定維持 / 距離: 中立 / 音: 沈黙（一切返さない）</p>
+<p>戦略적論理: 情報提供をあえて控えることで、相手の思考を促し、次の情報を引き出す。</p>
+<p>[!info] C-3: 建設的な提案</p>
+<p>主体: A | ルール: 守る（様態の公理）</p>
+<p>実行コード: 強さ: オープン / 角度: 真正面 / 音: 抑揚を排したクリアな音</p>
+<p>戦略的論理: 表現の明確さを守り、曖昧さを排除して論理的な議論を主導する。</p>
+</blockquote>
+<h3 id="ii-p-manipulative-parent">II. 操作的な態度：P主体 (Manipulative Parent)</h3>
+<blockquote>
+<p>[!danger] M-P1: 強引な押し付け</p>
+<p>主体: CP | ルール: 破る（量の公理）</p>
+<p>実行コード: 強さ: 拡張・高い角度 / 距離: 真正面・侵入 / 音: 低い破裂音</p>
+<p>戦略的論理: 情報過多（威圧）で相手の思考余地を奪い、強制的に服従させる。</p>
+<p>[!danger] M-P2: 親切という名の強制</p>
+<p>主体: NP/CP | ルール: 破る（質の公理）</p>
+<p>実行コード: 強さ: 固定された視線 / 距離: 管理距離 / 音: 柔らかい音＋微細な接触</p>
+<p>戦略的論理: 未検証の価値観を「善意」として真実のように扱い、相手の拒絶を封じる。</p>
+<p>[!danger] M-P3: 無言の拒絶</p>
+<p>主体: CP | ルール: 破る（関連性の公理）</p>
+<p>実行コード: 強さ: 強い姿勢で別視線 / 距離: わずかに逸らす / 音: 無関係な鼻音</p>
+<p>戦略的論理: 話題を遮断し、相手の存在そのものを議論の対象外として拒絶する。</p>
+<p>[!danger] M-P4: 過保護な手助け</p>
+<p>主体: NP | ルール: 破る（関連性の公理）</p>
+<p>実行コード: 強さ: 拡張 / 距離: 不必要な近接 / 音: 優しいトーン＋無関係な身振り</p>
+<p>戦略적論理: 解決とは無関係な世話を焼き、相手の自立を削いで管理下に置く。</p>
+</blockquote>
+<h3 id="iii-c-manipulative-child">III. 操作的な態度：C主体 (Manipulative Child)</h3>
+<blockquote>
+<p>[!warning] M-C1: 助けを求める甘え</p>
+<p>主体: AC | ルール: 破る（量の公理）</p>
+<p>実行コード: 強さ: 収縮・低角度 / 角度: 下から見上げる / 音: 泣き言のような高い音</p>
+<p>戦略的論理: 弱者の情報を過剰に提示することで相手の保護欲を強制し、自己責任を回避する。</p>
+<p>[!warning] M-C2: はぐらかし</p>
+<p>主体: AC | ルール: 破る（様態の公理）</p>
+<p>実行コード: 強さ: 軸をずらす / 距離: 視線を合わせない / 音: 揺れる不明瞭な音</p>
+<p>戦略的論理: 態度を曖昧にすることで明確な対立を避け、決断の責任から逃避する。</p>
+<p>[!warning] M-C3: 感情の爆発</p>
+<p>主体: FC | ルール: 破る（質の公理）</p>
+<p>実行コード: 強さ: 瞬間的な身体の緊張 / 距離: 動揺 / 音: 鋭い突発的高音</p>
+<p>戦略的論理: 真実や論理を完全に放棄し、感情的欲求を爆発させて議論の土台を破壊する。</p>
+<p>[!warning] M-C4: 話題逸らし</p>
+<p>主体: AC | ルール: 破る（関連性の公理）</p>
+<p>実行コード: 強さ: 身体の収縮 / 距離: 接点を減らす / 音: 質問に無関係な相槌</p>
+<p>戦略的論理: 文脈を意図的に無視し、責任を伴う対話の状況そのものから逃亡する。</p>
+</blockquote>
+<h3 id="iv-strategic-mixed">IV. 戦略的利用と混合 (Strategic &amp; Mixed)</h3>
+<blockquote>
+<p>[!tip] M-A1: 戦略的な圧力</p>
+<p>主体: A(P利用) | ルール: 戦略的逸脱</p>
+<p>実行コード: 強さ: Pの強い姿勢 / 距離: 境界線ぎりぎり / 音: Aの冷静なトーン</p>
+<p>戦略的論理: 身体的な圧を「道具」として利用し、隠された情報を引き出す緊張を生む。</p>
+<p>[!tip] M-A2: 油断させる弱さ</p>
+<p>主体: A(C利用) | ルール: 戦略的逸脱</p>
+<p>実行コード: 強さ: Cの弱い姿勢 / 距離: 油断させる距離 / 音: AによるCの音模倣</p>
+<p>戦略的論理: 意図的に弱さを見せることで、相手の警戒を解き、情報の優位を確保する。</p>
+<p>[!tip] M-A3: 冷静な情報操作</p>
+<p>主体: A | ルール: 破る（質の公理）</p>
+<p>実行コード: 強さ: 中立姿勢の固定 / 距離: Aの距離 / 音: 感情を排した論理的な音</p>
+<p>戦略的論理: 協調的な態度を装いながら、真実を隠蔽し状況を完璧に管理する。</p>
+<p>[!tip] M-A4: 計算された無関心</p>
+<p>主体: A | ルール: 破る（関連性/量）</p>
+<p>実行コード: 強さ: 完全リラックス / 距離: 特定部位を注視 / 音: 単調な音</p>
+<p>戦略的論理: 人間的交流を計算的に拒絶し、相手の感情的な揺さぶりを無効化する。</p>
+<p>[!caution] M-X1: 感情的な過干渉</p>
+<p>主体: P/C混合 | ルール: 破る（関連性）</p>
+<p>実行コード: 強さ: 柔らかい密着 / 距離: スペース侵入 / 音: 優しいが不安定な音</p>
+<p>戦略的論理: 献身と脆さを同時に見せ、相手に罪悪感と依存を植え付け、関係を拘束する。</p>
+</blockquote>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.instant", "navigation.tracking", "navigation.tabs", "navigation.sections", "navigation.top", "content.code.copy"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>
