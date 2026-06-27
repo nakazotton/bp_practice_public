@@ -2,26 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://stance.blood-panda.net/</loc>
-         <lastmod>2026-06-26</lastmod>
+         <lastmod>2026-06-27</lastmod>
     </url>
     <url>
          <loc>https://stance.blood-panda.net/Articles/</loc>
-         <lastmod>2026-06-26</lastmod>
+         <lastmod>2026-06-27</lastmod>
     </url>
     <url>
          <loc>https://stance.blood-panda.net/Articles/framework/</loc>
-         <lastmod>2026-06-26</lastmod>
+         <lastmod>2026-06-27</lastmod>
     </url>
     <url>
          <loc>https://stance.blood-panda.net/Articles/teaterofstance/</loc>
-         <lastmod>2026-06-26</lastmod>
+         <lastmod>2026-06-27</lastmod>
     </url>
     <url>
          <loc>https://stance.blood-panda.net/Articles/training-01/</loc>
-         <lastmod>2026-06-26</lastmod>
+         <lastmod>2026-06-27</lastmod>
     </url>
     <url>
          <loc>https://stance.blood-panda.net/Articles/training-02/</loc>
-         <lastmod>2026-06-26</lastmod>
+         <lastmod>2026-06-27</lastmod>
+    </url>
+    <url>
+         <loc>https://stance.blood-panda.net/Logs/</loc>
+         <lastmod>2026-06-27</lastmod>
+    </url>
+    <url>
+         <loc>https://stance.blood-panda.net/Next_Performance/</loc>
+         <lastmod>2026-06-27</lastmod>
     </url>
 </urlset>
